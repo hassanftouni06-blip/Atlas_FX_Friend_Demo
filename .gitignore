@@ -1,0 +1,11 @@
+# Encrypted API keys: never upload
+.secrets/
+
+# Local Python environment and caches (rebuilt by Start Demo)
+.venv/
+__pycache__/
+*.pyc
+
+# Live bot data: database, logs, locks, account state, trade journal
+runtime/
+journal/
